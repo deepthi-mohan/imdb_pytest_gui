@@ -1,0 +1,107 @@
+1614943408066	geckodriver	INFO	Listening on 127.0.0.1:61387
+1614943411080	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\sreel\\AppData\\Local\\Temp\\rust_mozprofile7y9uR2"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1614943415609	Marionette	INFO	Listening on port 61396
+1614943415921	Marionette	WARN	TLS certificate errors will be ignored for this session
+1614943447653	Marionette	INFO	Stopped listening on port 61396
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1614943676458	geckodriver	INFO	Listening on 127.0.0.1:61668
+1614943679492	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\sreel\\AppData\\Local\\Temp\\rust_mozprofileERNJQN"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1614943684340	Marionette	INFO	Listening on port 61678
+1614943684824	Marionette	WARN	TLS certificate errors will be ignored for this session
+1614943751105	Marionette	INFO	Stopped listening on port 61678
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1614943805795	geckodriver	INFO	Listening on 127.0.0.1:61891
+1614943808836	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\sreel\\AppData\\Local\\Temp\\rust_mozprofileNTleU7"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1614943812219	Marionette	INFO	Listening on port 61901
+1614943812538	Marionette	WARN	TLS certificate errors will be ignored for this session
+1614943817929	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'loading'.
+1614943817930	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'loading'.
+1614943930389	Marionette	INFO	Stopped listening on port 61901
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1614944088755	geckodriver	INFO	Listening on 127.0.0.1:62166
+1614944091799	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\sreel\\AppData\\Local\\Temp\\rust_mozprofile5azz4X"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1614944095161	Marionette	INFO	Listening on port 62176
+1614944095502	Marionette	WARN	TLS certificate errors will be ignored for this session
+1614944119005	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:235:19
+TimedPromise@chrome://marionette/content/sync.js:220:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:418:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+xhrSendProcessor@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=PqHYZdqn72GLTMWFKuEYSS0F3Pc3EaWe3LwqAc1dy8MRZa4-SimpfuRFK-QmRKVwr6HegdUOso5Xt3RSgih1jdVhVSRF0tpr1kSmMDhdTxY:3450:36
+window.XMLHttpRequest.prototype.send@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=PqHYZdqn72GLTMWFKuEYSS0F3Pc3EaWe3LwqAc1dy8MRZa4-SimpfuRFK-QmRKVwr6HegdUOso5Xt3RSgih1jdVhVSRF0tpr1kSmMDhdTxY:3341:33
+[7]</e</a.prototype.getLoggedInStatus@https://m.media-amazon.com/images/S/sash/NnwgjhsMUkDJ$zn.js:1:11849
+e@https://m.media-amazon.com/images/S/sash/NnwgjhsMUkDJ$zn.js:1:11248
+[17]</</b.imdb.WatchlistRibbon.prototype._checkWatchlist@https://m.media-amazon.com/images/S/sash/NnwgjhsMUkDJ$zn.js:2:6270
+[17]</</b.imdb.WatchlistRibbon.prototype._init@https://m.media-amazon.com/images/S/sash/NnwgjhsMUkDJ$zn.js:2:1429
+[17]</</b.imdb.WatchlistRibbon@https://m.media-amazon.com/images/S/sash/NnwgjhsMUkDJ$zn.js:2:574
+[17]</</a.fn.watchlistRibbon@https://m.media-amazon.com/images/S/sash/NnwgjhsMUkDJ$zn.js:2:8887
+b@https://m.media-amazon.com/images/S/sash/NnwgjhsMUkDJ$zn.js:1:733
+jQueryOnReady/<@https://www.imdb.com/chart/top?ref_=nv_mv_250_6:11296:42
+l@https://m.media-amazon.com/images/S/sash/wDqcPWN-$punknn.js:94:25223
+f/</m<@https://m.media-amazon.com/images/S/sash/wDqcPWN-$punknn.js:94:25527
+1614944129419	Marionette	INFO	Stopped listening on port 62176
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1614944251955	geckodriver	INFO	Listening on 127.0.0.1:62380
+1614944254992	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\sreel\\AppData\\Local\\Temp\\rust_mozprofile1pVoB3"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1614944258710	Marionette	INFO	Listening on port 62389
+1614944259197	Marionette	WARN	TLS certificate errors will be ignored for this session
+1614944269353	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:235:19
+TimedPromise@chrome://marionette/content/sync.js:220:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:418:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1614944285623	Marionette	INFO	Stopped listening on port 62389
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1614944383174	geckodriver	INFO	Listening on 127.0.0.1:62582
+1614944386220	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\sreel\\AppData\\Local\\Temp\\rust_mozprofilehA6JjF"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1614944389635	Marionette	INFO	Listening on port 62591
+1614944389914	Marionette	WARN	TLS certificate errors will be ignored for this session
+1614944416969	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:235:19
+TimedPromise@chrome://marionette/content/sync.js:220:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:418:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+xhrSendProcessor@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=UCWyXTGppVA_kb3My4k7hxWeLmkgv4uPusbtdLn-6DOvnm_3OSLzmgANfYF_qLHvti8efxJ32APCqD8ybaRPT5VNpKybtV_fC8yaQXJCvaw:3450:36
+window.XMLHttpRequest.prototype.send@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=UCWyXTGppVA_kb3My4k7hxWeLmkgv4uPusbtdLn-6DOvnm_3OSLzmgANfYF_qLHvti8efxJ32APCqD8ybaRPT5VNpKybtV_fC8yaQXJCvaw:3341:33
+[7]</e</a.prototype.getLoggedInStatus@https://m.media-amazon.com/images/S/sash/NnwgjhsMUkDJ$zn.js:1:11849
+e@https://m.media-amazon.com/images/S/sash/NnwgjhsMUkDJ$zn.js:1:11248
+[17]</</b.imdb.WatchlistRibbon.prototype._checkWatchlist@https://m.media-amazon.com/images/S/sash/NnwgjhsMUkDJ$zn.js:2:6270
+[17]</</b.imdb.WatchlistRibbon.prototype._init@https://m.media-amazon.com/images/S/sash/NnwgjhsMUkDJ$zn.js:2:1429
+[17]</</b.imdb.WatchlistRibbon@https://m.media-amazon.com/images/S/sash/NnwgjhsMUkDJ$zn.js:2:574
+[17]</</a.fn.watchlistRibbon@https://m.media-amazon.com/images/S/sash/NnwgjhsMUkDJ$zn.js:2:8887
+b@https://m.media-amazon.com/images/S/sash/NnwgjhsMUkDJ$zn.js:1:733
+jQueryOnReady/<@https://www.imdb.com/chart/top?ref_=nv_mv_250_6:11290:42
+l@https://m.media-amazon.com/images/S/sash/wDqcPWN-$punknn.js:94:25223
+f/</m<@https://m.media-amazon.com/images/S/sash/wDqcPWN-$punknn.js:94:25527
+1614944437254	Marionette	INFO	Stopped listening on port 62591
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
