@@ -105,3 +105,272 @@ f/</m<@https://m.media-amazon.com/images/S/sash/wDqcPWN-$punknn.js:94:25527
 
 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
+1615041741181	geckodriver	INFO	Listening on 127.0.0.1:62832
+1615041744247	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\sreel\\AppData\\Local\\Temp\\rust_mozprofilenyKoOd"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615041746975	Marionette	INFO	Listening on port 62843
+1615041747421	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 726))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 376))
+1615041785753	Marionette	INFO	Stopped listening on port 62843
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1615041786996	geckodriver	INFO	Listening on 127.0.0.1:62948
+1615041790065	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\sreel\\AppData\\Local\\Temp\\rust_mozprofilevUt6Z2"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615041792047	Marionette	INFO	Listening on port 62959
+1615041792134	Marionette	WARN	TLS certificate errors will be ignored for this session
+1615041800700	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:235:19
+TimedPromise@chrome://marionette/content/sync.js:220:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:418:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1615041814013	Marionette	INFO	Stopped listening on port 62959
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1615041815159	geckodriver	INFO	Listening on 127.0.0.1:63044
+1615041818258	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\sreel\\AppData\\Local\\Temp\\rust_mozprofileFx9KAl"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615041820195	Marionette	INFO	Listening on port 63052
+1615041820338	Marionette	WARN	TLS certificate errors will be ignored for this session
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+1615041840765	Marionette	INFO	Stopped listening on port 63052
+JavaScript error: https://m.media-amazon.com/images/S/sash/wDqcPWN-$punknn.js, line 94: NS_ERROR_NOT_INITIALIZED: 
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1615041946911	geckodriver	INFO	Listening on 127.0.0.1:63149
+1615041950008	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\sreel\\AppData\\Local\\Temp\\rust_mozprofile48uZ4a"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615041952040	Marionette	INFO	Listening on port 63157
+1615041952067	Marionette	WARN	TLS certificate errors will be ignored for this session
+1615041968541	Marionette	INFO	Stopped listening on port 63157
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1615041969696	geckodriver	INFO	Listening on 127.0.0.1:63237
+1615041972775	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\sreel\\AppData\\Local\\Temp\\rust_mozprofile0rPQHg"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615041974699	Marionette	INFO	Listening on port 63245
+1615041974821	Marionette	WARN	TLS certificate errors will be ignored for this session
+1615041983433	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:235:19
+TimedPromise@chrome://marionette/content/sync.js:220:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:418:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1615041998918	Marionette	INFO	Stopped listening on port 63245
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1615042000203	geckodriver	INFO	Listening on 127.0.0.1:63339
+1615042003256	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\sreel\\AppData\\Local\\Temp\\rust_mozprofileTDj84Y"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615042005306	Marionette	INFO	Listening on port 63348
+1615042005430	Marionette	WARN	TLS certificate errors will be ignored for this session
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+1615042030988	Marionette	INFO	Stopped listening on port 63348
+JavaScript error: https://m.media-amazon.com/images/S/sash/wDqcPWN-$punknn.js, line 94: NS_ERROR_NOT_INITIALIZED: 
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1615042207641	geckodriver	INFO	Listening on 127.0.0.1:63470
+1615042210709	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\sreel\\AppData\\Local\\Temp\\rust_mozprofileilyabo"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615042212655	Marionette	INFO	Listening on port 63480
+1615042212792	Marionette	WARN	TLS certificate errors will be ignored for this session
+1615042223162	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:235:19
+TimedPromise@chrome://marionette/content/sync.js:220:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:418:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+1615042239527	Marionette	INFO	Stopped listening on port 63480
+JavaScript error: https://m.media-amazon.com/images/S/sash/wDqcPWN-$punknn.js, line 94: NS_ERROR_NOT_INITIALIZED: 
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1615042305370	geckodriver	INFO	Listening on 127.0.0.1:63575
+1615042308448	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\sreel\\AppData\\Local\\Temp\\rust_mozprofile2MTL8h"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615042310465	Marionette	INFO	Listening on port 63583
+1615042310517	Marionette	WARN	TLS certificate errors will be ignored for this session
+1615042321162	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:235:19
+TimedPromise@chrome://marionette/content/sync.js:220:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:418:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+1615042332563	Marionette	INFO	Stopped listening on port 63583
+JavaScript error: https://m.media-amazon.com/images/S/sash/wDqcPWN-$punknn.js, line 94: NS_ERROR_NOT_INITIALIZED: 
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1615042439209	geckodriver	INFO	Listening on 127.0.0.1:63692
+1615042442245	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\sreel\\AppData\\Local\\Temp\\rust_mozprofilejDNSG7"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615042444258	Marionette	INFO	Listening on port 63700
+1615042444297	Marionette	WARN	TLS certificate errors will be ignored for this session
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+1615042544143	Marionette	INFO	Stopped listening on port 63700
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1615042583856	geckodriver	INFO	Listening on 127.0.0.1:63860
+1615042586905	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\sreel\\AppData\\Local\\Temp\\rust_mozprofileYpvCAg"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615042588923	Marionette	INFO	Listening on port 63868
+1615042588970	Marionette	WARN	TLS certificate errors will be ignored for this session
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+1615042620966	Marionette	INFO	Stopped listening on port 63868
+JavaScript error: https://m.media-amazon.com/images/S/sash/wDqcPWN-$punknn.js, line 94: NS_ERROR_NOT_INITIALIZED: 
+1615042849951	geckodriver	INFO	Listening on 127.0.0.1:64076
+1615042853022	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\sreel\\AppData\\Local\\Temp\\rust_mozprofileBjY9HS"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615042855085	Marionette	INFO	Listening on port 64084
+1615042855196	Marionette	WARN	TLS certificate errors will be ignored for this session
+1615042882349	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:235:19
+TimedPromise@chrome://marionette/content/sync.js:220:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:418:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+xhrSendProcessor@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=QskuVr5lKWWvHhnLFEDBfH93gqzb7pkwekMZgun8TzfmboyjAYvOnP4R220CugEY4XNiUhUEyCixQUbWGO1BidIH2pGk8m8MjqHfc0dYXjQ:3450:36
+window.XMLHttpRequest.prototype.send@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=QskuVr5lKWWvHhnLFEDBfH93gqzb7pkwekMZgun8TzfmboyjAYvOnP4R220CugEY4XNiUhUEyCixQUbWGO1BidIH2pGk8m8MjqHfc0dYXjQ:3341:33
+[7]</e</a.prototype.getLoggedInStatus@https://m.media-amazon.com/images/S/sash/NnwgjhsMUkDJ$zn.js:1:11849
+e@https://m.media-amazon.com/images/S/sash/NnwgjhsMUkDJ$zn.js:1:11248
+[17]</</b.imdb.WatchlistRibbon.prototype._checkWatchlist@https://m.media-amazon.com/images/S/sash/NnwgjhsMUkDJ$zn.js:2:6270
+[17]</</b.imdb.WatchlistRibbon.prototype._init@https://m.media-amazon.com/images/S/sash/NnwgjhsMUkDJ$zn.js:2:1429
+[17]</</b.imdb.WatchlistRibbon@https://m.media-amazon.com/images/S/sash/NnwgjhsMUkDJ$zn.js:2:574
+[17]</</a.fn.watchlistRibbon@https://m.media-amazon.com/images/S/sash/NnwgjhsMUkDJ$zn.js:2:8887
+b@https://m.media-amazon.com/images/S/sash/NnwgjhsMUkDJ$zn.js:1:733
+jQueryOnReady/<@https://www.imdb.com/chart/top?ref_=nv_mv_250_6:11296:42
+l@https://m.media-amazon.com/images/S/sash/wDqcPWN-$punknn.js:94:25223
+f/</m<@https://m.media-amazon.com/images/S/sash/wDqcPWN-$punknn.js:94:25527
+1615042918986	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:235:19
+TimedPromise@chrome://marionette/content/sync.js:220:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:418:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+1615042932822	Marionette	INFO	Stopped listening on port 64084
+JavaScript error: https://m.media-amazon.com/images/S/sash/wDqcPWN-$punknn.js, line 94: NS_ERROR_NOT_INITIALIZED: 
+1615043048970	geckodriver	INFO	Listening on 127.0.0.1:64251
+1615043051977	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\sreel\\AppData\\Local\\Temp\\rust_mozprofileCQVkht"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615043055493	Marionette	INFO	Listening on port 64259
+1615043055711	Marionette	WARN	TLS certificate errors will be ignored for this session
+1615043077397	Marionette	INFO	Stopped listening on port 64259
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1615043114321	geckodriver	INFO	Listening on 127.0.0.1:64393
+1615043117390	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\sreel\\AppData\\Local\\Temp\\rust_mozprofileiGcII8"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615043120883	Marionette	INFO	Listening on port 64401
+1615043121109	Marionette	WARN	TLS certificate errors will be ignored for this session
+1615043132079	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:235:19
+TimedPromise@chrome://marionette/content/sync.js:220:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:418:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1615043146421	Marionette	INFO	Stopped listening on port 64401
+1615043181450	geckodriver	INFO	Listening on 127.0.0.1:64545
+1615043184476	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\sreel\\AppData\\Local\\Temp\\rust_mozprofilelz6GRi"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615043187979	Marionette	INFO	Listening on port 64553
+1615043188218	Marionette	WARN	TLS certificate errors will be ignored for this session
+1615043199362	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:235:19
+TimedPromise@chrome://marionette/content/sync.js:220:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:418:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+1615043211369	Marionette	INFO	Stopped listening on port 64553
+JavaScript error: https://m.media-amazon.com/images/S/sash/wDqcPWN-$punknn.js, line 94: NS_ERROR_NOT_INITIALIZED: 
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1615043880999	geckodriver	INFO	Listening on 127.0.0.1:64906
+1615043884044	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\sreel\\AppData\\Local\\Temp\\rust_mozprofileYhZ85a"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615043887958	Marionette	INFO	Listening on port 64914
+1615043888288	Marionette	WARN	TLS certificate errors will be ignored for this session
+1615043951469	Marionette	INFO	Stopped listening on port 64914
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1615043999961	geckodriver	INFO	Listening on 127.0.0.1:65073
+1615044002978	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\sreel\\AppData\\Local\\Temp\\rust_mozprofilead0Lrz"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615044006395	Marionette	INFO	Listening on port 65081
+1615044006734	Marionette	WARN	TLS certificate errors will be ignored for this session
+1615044101620	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:235:19
+TimedPromise@chrome://marionette/content/sync.js:220:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:418:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1615044119731	Marionette	INFO	Stopped listening on port 65081
+
+###!!! [Child][MessageChannel] Error: (msgtype=0xB60006,name=PWebSocket::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0xB60006,name=PWebSocket::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1615044213916	geckodriver	INFO	Listening on 127.0.0.1:65288
+1615044216974	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\sreel\\AppData\\Local\\Temp\\rust_mozprofileJDJHx0"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615044220365	Marionette	INFO	Listening on port 65296
+1615044220701	Marionette	WARN	TLS certificate errors will be ignored for this session
+1615044265003	Marionette	INFO	Stopped listening on port 65296
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+

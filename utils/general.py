@@ -41,18 +41,26 @@ class General():
         sorted_list.sort(reverse=reverse)
         return sorted_list
 
-    def sort_list_in_decending_order1(self, actual_list):
-        test_list1 = actual_list[:]
-        test_list1.sort(reverse=True)
-        sorted_list = sorted(actual_list)
-        print("actual list is")
-        print(actual_list)
-        print("sorted list is" )
-        print(sorted_list)
-        print("test_list1 list is")
-        print(test_list1)
-        if test_list1 == actual_list:
+    # Compare and verify two lists
+    # params: actual list, expected list
+    def verify_values(self, actual_value, expected_value):
+        if actual_value == expected_value:
             assert True
         else:
             assert False
+
+    # def sort_list_in_decending_order1(self, actual_list):
+    #     test_list1 = actual_list[:]
+    #     test_list1.sort(reverse=True)
+    #     sorted_list = sorted(actual_list)
+    #     print("actual list is")
+    #     print(actual_list)
+    #     print("sorted list is" )
+    #     print(sorted_list)
+    #     print("test_list1 list is")
+    #     print(test_list1)
+    #     if test_list1 == actual_list:
+    #         assert True
+    #     else:
+    #         assert False
 
