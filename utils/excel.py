@@ -10,7 +10,6 @@ class Excel():
         self.config_data = ConfigData()
         path = str(self.general.get_directory_path())
         full_path = path + self.config_data.TEST_DATA_PATH
-        print(path + "\\data\\TestData.xlsx")
         return full_path
 
     # Get sheet name
@@ -18,7 +17,6 @@ class Excel():
         path = self.get_test_data_path()
         workbook = xlrd.open_workbook(path)
         sheet = workbook.sheet_by_name(sheet_name)
-        # sheet = workbook.sheet_by_name(self.config_data.SHEET_NAME)
         return sheet
 
     # get number of rows
@@ -30,17 +28,17 @@ class Excel():
     # get number of column
     def get_col_count(self, sheet_name):
         col_count = sheet_name.ncols
-        print(col_count)
         return col_count
 
-    # read data from excel sheet
-    def read_row_data(self, sheet_name):
-        sheet = self.get_sheet_name(sheet_name)
-        row_count = self.get_row_count(sheet)
-        col_count = self.get_col_count(sheet)
-        print(sheet.row(2))
-        # print(sheet.row(2)[1])
-        return sheet.row(2)
+    # # read data from excel sheet
+    # def read_row_data(self, sheet_name):
+    #     sheet = self.get_sheet_name(sheet_name)
+    #     row_count = self.get_row_count(sheet)
+    #     col_count = self.get_col_count(sheet)
+    #
+    #     return sheet.row(2)
+
+    # read test data from excel as a list of dictionaries
 
     def read_test_data(self, sheet_name):
         print(" new function excel")
