@@ -11,11 +11,11 @@ class FindIMDB(BasePage):
     lnkSearchResults = (By.XPATH, "//div[@class='findSection']//table[@class='findList']//td[@class='result_text']//a[contains(@href, 'title')]")
 
     """constructor of the TopRatedMoviesPage class"""
-    """launch IMDB top rated movies page """
+
     def __init__(self, driver):
         super().__init__(driver)
         self.general = General()
-        # self.driver.get(ConfigData.BASE_URL)
+        self.get_title("Find - IMDb")
 
     # Get Search result label value
     # params: None

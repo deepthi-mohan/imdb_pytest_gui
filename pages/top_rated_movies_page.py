@@ -12,7 +12,9 @@ class TopRatedMoviesPage(BasePage):
     btnSearch = (By.XPATH, "//*[@id='suggestion-search-button']")
     grdMovieRating = (By.XPATH, "// tbody[ @ Class = 'lister-list'] // td[ @ Class = 'ratingColumn imdbRating'] // strong")
     btnDescendingOrder = (By.XPATH, "//span[contains(@Class, 'global-sprite lister-sort-reverse')]")
-    grdMovieListXpath = "//tbody[@Class='lister-list']//td[@Class='titleColumn']"
+    rbnAddWishList = (By.XPATH, "//tbody[@Class='lister-list']//td[@Class='watchlistColumn']//div[@class='wlb_ribbon']")
+    divUserProfile = (By.XPATH, "//*[@id='imdbHeader']//div[@class='ipc-button__text']//span")
+    rbnAddWishListDetail = (By.XPATH, "//tbody[@Class='lister-list']//td[@Class='watchlistColumn']//div[@class='wlb_ribbon']//div")
 
     """constructor of the TopRatedMoviesPage class"""
     """launch IMDB top rated movies page """
@@ -30,8 +32,6 @@ class TopRatedMoviesPage(BasePage):
         top_rated_movie_chart = self.get_value_from_grid(self.grdMovieTitle)
         for ele in top_rated_movie_chart:
             list_movie_details.append(ele.text)
-            link_text = ele.text
-           # print(link_text)
         return list_movie_details
 
     # Verify top rated movie list count
@@ -68,8 +68,6 @@ class TopRatedMoviesPage(BasePage):
         top_rated_movie_ratings = self.get_value_from_grid(self.grdMovieRating)
         for ele in top_rated_movie_ratings:
             list_rating_details.append(ele.text)
-            link_text = ele.text
-            # print(link_text)
         return list_rating_details
 
     # Verify top rated movie rating list
@@ -85,4 +83,33 @@ class TopRatedMoviesPage(BasePage):
     # params: None
     def click_descending_order_icon(self):
         self.do_click(self.btnDescendingOrder)
+
+    # Click on add to wish list icon
+    # params: None
+    def click_wish_list_icon(self):
+        self.do_click(self.rbnAddWishList)
+
+    # Verify user profile details
+    # params: Profile name
+    def verify_profile_name(self, profile_name):
+        self.wait_for_page_load(self.divUserProfile)
+        user_profile_detail = self.get_value_from_grid(self.divUserProfile)
+        profile_detail = user_profile_detail[1].text
+        self.general.verify_values(str(profile_detail), str(profile_name))
+
+    # Verify user watch list details
+    # params: Profile name
+    def verify_watch_list(self, watch_list_count):
+        user_profile_detail = self.get_value_from_grid(self.divUserProfile)
+        watchlist_detail = user_profile_detail[0].text
+        self.general.verify_values(int(watchlist_detail), int(watch_list_count))
+
+    # Verify user watch list added in movie chart
+    # params : Watch list details
+    def verify_watch_list_added_to_movie(self, actual_wishlist_title):
+        watchlist_title = self.get_attribute_value(self.rbnAddWishListDetail, "title")
+        self.general.verify_values(str(watchlist_title), str(actual_wishlist_title))
+
+
+
 
