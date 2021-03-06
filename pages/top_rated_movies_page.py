@@ -54,7 +54,6 @@ class TopRatedMoviesPage(BasePage):
     # params: search text value
 
     def input_search_imbd_text(self, search_text):
-        print("Search text is: " + str(search_text))
         self.do_send_keys(self.txtSearch, str(search_text))
 
     # Input value in Search text box

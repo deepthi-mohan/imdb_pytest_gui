@@ -1,4 +1,5 @@
 from pathlib import Path
+import platform
 
 """This class contains general function """
 
@@ -46,5 +47,12 @@ class General():
             assert True
         else:
             assert False
+
+    # Get OS Name
+    # params: None
+    def get_operating_system_name(self):
+        os_details = platform.system()
+        return os_details
+
 
 
