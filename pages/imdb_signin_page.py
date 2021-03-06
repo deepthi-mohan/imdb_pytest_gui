@@ -1,11 +1,12 @@
 from selenium.webdriver.common.by import By
 from pages.base_page import BasePage
-from config.config import ConfigData
 from utils.general import General
 """Class for SignInPage Page"""
 
 
 class IMDBSignInPage(BasePage):
+
+    """Locators of IMDBSignInPage """
 
     txtUserEmail = (By.ID, "ap_email")
     txtPassword = (By.ID, "ap_password")
@@ -34,6 +35,8 @@ class IMDBSignInPage(BasePage):
     def click_sign_in_button(self):
         self.do_click(self.btnSignIn)
 
+    # Input Sign In details and click button
+    # params: user name, password
     def enter_user_details_and_sign_in(self, user_name, password):
         self.enter_user_email(user_name)
         self.enter_user_password(password)

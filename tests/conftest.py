@@ -1,18 +1,14 @@
 from selenium import webdriver
-from config.config import ConfigData
 from webdriver_manager.chrome import ChromeDriverManager
 from webdriver_manager.firefox import GeckoDriverManager
 from webdriver_manager.microsoft import IEDriverManager
 import pytest
 
 """set up and tear down """
+""" Initialize drivers"""""
 
 
 @pytest.fixture(params=["chrome"], scope='function')
-# @pytest.fixture(params=["firefox"], scope='function')
-# @pytest.fixture(params=["internet explorer"], scope='function')
-# @pytest.fixture(params=["edge"], scope='function')
-# @pytest.fixture(params=["chrome", "firefox"], scope= 'class')
 # @pytest.fixture(params=["chrome", "firefox"], scope='function')
 def init_driver(request):
     if request.param == "chrome":

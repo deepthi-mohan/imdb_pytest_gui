@@ -1,16 +1,17 @@
 from selenium.webdriver.common.by import By
 from pages.base_page import BasePage
-from config.config import ConfigData
 from utils.general import General
 import time
 """Class for FindIMDB Page"""
 
 
 class FindIMDB(BasePage):
+
+    """Locators of the Find page"""
     lblSearchResult = (By.XPATH, "//span[@class= 'findSearchTerm']")
     lnkSearchResults = (By.XPATH, "//div[@class='findSection']//table[@class='findList']//td[@class='result_text']//a[contains(@href, 'title')]")
 
-    """constructor of the TopRatedMoviesPage class"""
+    """constructor of the FindIMDB class"""
 
     def __init__(self, driver):
         super().__init__(driver)
@@ -28,7 +29,6 @@ class FindIMDB(BasePage):
     def verify_search_result_label(self, expected_search_result_label):
         actual_search_result_label = self.get_search_result()
         actual_search_result_label = self.general.strip_string_value(actual_search_result_label, '"')
-        # actual_search_result_label = actual_search_result_label.strip('"')
         assert actual_search_result_label == expected_search_result_label, "Actual search label and expected label is not same as expected"
 
     # get Search result links
@@ -38,8 +38,6 @@ class FindIMDB(BasePage):
         search_result_list = []
         for element in search_links:
             search_result_list.append(element.text)
-            link_text = element.text
-            # print(link_text)
         return search_result_list
 
     # verify text in Search result links

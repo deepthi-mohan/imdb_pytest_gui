@@ -6,6 +6,8 @@ from utils.general import General
 
 
 class TopRatedMoviesPage(BasePage):
+
+    """Locator details"""
     grdMovieTitle = (By.XPATH, "//tbody[@Class='lister-list']//td[@Class='titleColumn']")
     cmbSortBy = (By.ID, "lister-sort-by-options")
     txtSearch = (By.ID, "suggestion-search")
@@ -22,6 +24,7 @@ class TopRatedMoviesPage(BasePage):
         super().__init__(driver)
         self.driver.get(ConfigData.BASE_URL)
         self.general = General()
+        
     """Actions for TopRatedMoviesPage class"""
 
     # Get top rated movie list

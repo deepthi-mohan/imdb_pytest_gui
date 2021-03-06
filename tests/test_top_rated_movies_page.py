@@ -1,14 +1,13 @@
 import pytest
 from tests.test_base import BaseTest
 from pages.top_rated_movies_page import TopRatedMoviesPage
-from pages.movie_detail_page import MovieDetailPage
 from config.config import ConfigData
 from pages.find_page import FindIMDB
 from utils.excel import Excel
 from pages.signin_page import SignInPage
 from pages.imdb_signin_page import IMDBSignInPage
 
-"""Test Class for MovieDetail Page"""
+"""Test Class for TestTopRatedMovies Page"""
 
 
 class TestTopRatedMoviesPage(BaseTest):
@@ -17,6 +16,8 @@ class TestTopRatedMoviesPage(BaseTest):
     def test_top_rated_movies_imdb_page(self):
         self.excel = Excel()
         self.config_data = ConfigData()
+
+        # get test data
         movie_list = self.excel.read_test_data(self.config_data.SHEET_NAME)
         search_sort_by = movie_list[0][4]
         movie_count = movie_list[0][6]
@@ -42,10 +43,12 @@ class TestTopRatedMoviesPage(BaseTest):
     def test_search_in_imdb_page(self):
         self.excel = Excel()
         self.config_data = ConfigData()
+
+        # get test data
         test_data = self.excel.read_test_data(self.config_data.SHEET_NAME)
-        # test_data = ['tc0001', 'itsmedeepthy@gmail.com', 'p@ssw0rd', 'IMDB', 'Release Date', 'The Dark Knight', 250, 'IMDb Top 250 - IMDb']
         search_text = test_data[1][5]
         page_title = test_data[1][7]
+
         # Search value in TopRatedMoviesPage
         self.top_rated_movies_page = TopRatedMoviesPage(self.driver)
         self.top_rated_movies_page.input_search_imbd_text(search_text)
@@ -91,9 +94,7 @@ class TestTopRatedMoviesPage(BaseTest):
         # Verify Top rated Movies page after user sign in
         # Verify User name and Watch list details
         self.top_rated_movies_pages = TopRatedMoviesPage(self.driver)
-        # self.top_rated_movies_pages.verify_profile_name("Deepthi")
         self.top_rated_movies_pages.verify_profile_name(profile_name_after_sign_in)
-        # print("watch list count is" + str(watch_list_count))
         self.top_rated_movies_pages.verify_watch_list(watch_list_count)
         self.top_rated_movies_pages.verify_watch_list_added_to_movie(watch_list_title_after_adding)
 
