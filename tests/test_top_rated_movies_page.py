@@ -74,7 +74,6 @@ class TestTopRatedMoviesPage(BaseTest):
         password = data_list[2][2]
 
         profile_name_after_sign_in = data_list[2][8]
-        print("profile name from data" + profile_name_after_sign_in)
         watch_list_count = data_list[2][9]
         watch_list_title_before_adding = data_list[2][10]
         watch_list_title_after_adding = data_list[2][11]
