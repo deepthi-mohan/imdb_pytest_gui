@@ -8,14 +8,14 @@ Test automation of IMDB Top Rated Movies page.
 3. [Installation](#installation)
 
 ### General Info
-***
+******
 Automation of few functionalities in IMDB top rate movies page is done.
 Data-driven Framework using Page Object Model design pattern and selenium.
 Python is the language used for scripting.
 
 Mutliple Browser execution, parallel execution, execution across various operating systems and HTLM reporting supported.
 
-***
+******
 Automated Test Scenarios:
 1. Test scenario: Verify the movie chart has 250 movies in it and Sort by functionality
 2. Test Scenario: Verify Search in IMDB web page and navigate back to home page
