@@ -108,7 +108,7 @@ class TopRatedMoviesPage(BasePage):
         self.general.verify_values(int(watchlist_detail), int(watch_list_count))
 
     # Verify user watch list added in movie chart
-    # params : Watch list details
+    # params : Watch list details list
     def verify_watch_list_added_to_movie(self, actual_wishlist_title):
         self.wait_for_page_load(self.rbnAddWishListDetail)
         watchlist_title = self.get_attribute_value(self.rbnAddWishListDetail, "title")

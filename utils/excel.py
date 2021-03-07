@@ -58,7 +58,7 @@ class Excel():
             for col in range(col_count):
                 elm[first_row[col]] = sheet.cell_value(row, col)
             data.append(elm)
-
+        # Splitting the values from keys
         tc1 = []
         for i in range(len(data)):
             tc2 = []

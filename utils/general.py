@@ -49,7 +49,7 @@ class General():
             assert False
 
     # Get OS Name
-    # params: None
+    # params: none
     def get_operating_system_name(self):
         os_details = platform.system()
         return os_details
