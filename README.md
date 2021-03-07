@@ -1,5 +1,5 @@
 # imdb_pytest_gui
-***
+****
 Test automation of IMDB Top Rated Movies page.
 
 ## Table of Contents
