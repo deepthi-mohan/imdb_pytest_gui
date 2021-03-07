@@ -13,7 +13,7 @@ Automation of few functionalities in IMDB top rate movies page is done.
 Data-driven Framework using Page Object Model design pattern and selenium.
 Python is the language used for scripting.
 
-Mutliple Browser execution, parallel execution, execution across various operating systems and HTLM reporting supported.
+Mutliple Browser execution, parallel execution, execution across various operating systems and HTML reporting supported.
 
 ***
 Automated Test Scenarios:
@@ -36,12 +36,12 @@ A list of technologies used within the project:
 
 ## Installation
 ***
-For the project to run properly in any environment follow the below steps
+For the project to run properly in any environment(Windows/Mac/Linux) follow the below steps
 ```
-Precondition: Pyton Version 3.9.0 and pip: Version 21.0.1 should be pre installed
+Precondition: Python Version 3.9.0 and pip: Version 21.0.1 should be pre installed, Pycharm CE 2020.3.3
 
 Steps:
-1. Clone and extact project from git path: https://github.com/deepthi-mohan/imdb_pytest_gui
+1. Clone and extact project from git path: https://github.com/deepthi-mohan/imdb_pytest_gui.git
 2. Open project in Pycharm
 3. In Pycharm terminal run following commands:
 
