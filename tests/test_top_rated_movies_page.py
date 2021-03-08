@@ -93,8 +93,8 @@ class TestTopRatedMoviesPage(BaseTest):
         # Verify Top rated Movies page after user sign in
         # Verify User name and Watch list details
         self.top_rated_movies_pages = TopRatedMoviesPage(self.driver)
-        self.top_rated_movies_pages.verify_profile_name(profile_name_after_sign_in)
         self.top_rated_movies_pages.verify_watch_list(watch_list_count)
+        self.top_rated_movies_pages.verify_profile_name(profile_name_after_sign_in)
         self.top_rated_movies_pages.verify_watch_list_added_to_movie(watch_list_title_after_adding)
 
 

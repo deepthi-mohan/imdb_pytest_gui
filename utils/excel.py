@@ -35,7 +35,7 @@ class Excel():
         os_name = self.general.get_operating_system_name()
         if os_name == "Windows":
             excel_path = self.config_data.TEST_DATA_PATH_WINDOWS
-        elif os_name == "Mac":
+        elif os_name == "Darwin":
             excel_path = self.config_data.TEST_DATA_PATH_MAC
         elif os_name == "Linux":
             excel_path = self.config_data.TEST_DATA_PATH_LINUX
