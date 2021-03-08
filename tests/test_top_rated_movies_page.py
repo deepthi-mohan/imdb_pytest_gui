@@ -91,7 +91,7 @@ class TestTopRatedMoviesPage(BaseTest):
         self.imdb_sign_in_page.enter_user_details_and_sign_in(user_name, password)
 
         # Verify Top rated Movies page after user sign in
-        # Verify User name and Watch list details
+        # Verify User name and Watch list detail
         self.top_rated_movies_pages = TopRatedMoviesPage(self.driver)
         self.top_rated_movies_pages.verify_watch_list(watch_list_count)
         self.top_rated_movies_pages.verify_profile_name(profile_name_after_sign_in)

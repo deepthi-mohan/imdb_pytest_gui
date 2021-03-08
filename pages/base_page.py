@@ -45,7 +45,7 @@ class BasePage:
         attribute_value = element.get_attribute(attribute)
         return attribute_value
 
-    # Wait of page load
+    # Wait for page load
     def wait_for_page_load(self, by_locator):
         WebDriverWait(self.driver, 1500).until(EC.visibility_of_element_located(by_locator))
 
