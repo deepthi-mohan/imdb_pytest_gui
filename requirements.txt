@@ -24,3 +24,4 @@ toml==0.10.2
 urllib3==1.26.3
 webdriver-manager==3.3.0
 xlrd==1.2.0
+
